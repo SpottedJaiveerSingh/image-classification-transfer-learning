@@ -39,16 +39,18 @@ This project implements an image classification system that distinguishes betwee
 ---
 
 ## Project Structure
+
+```bash
 project/
 │── data/
-│ ├── train/
-│ │ ├── dogs/
-│ │ └── cats/
-│ ├── validation/
-│ │ ├── dogs/
-│ │ └── cats/
-│ └── test/
-│ └── test/
+│   ├── train/
+│   │   ├── dogs/
+│   │   └── cats/
+│   ├── validation/
+│   │   ├── dogs/
+│   │   └── cats/
+│   └── test/
+│       └── test/
 │
 │── img_clf.py
 │── vgg_bn.py
@@ -56,6 +58,7 @@ project/
 │── cats_n_dogs_BN.ipynb
 │
 │── prediction.csv
+
 
 
 ---
